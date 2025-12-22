@@ -168,19 +168,7 @@ https://developer.zebra.com/ > (右上)Register
     -F "sn=D7J203700352" `
     -F "zpl_file=@C:\Users\moget\Downloads\temp\aaa.txt;type=text/plain"
     ```  
-  
-- 実行例  
-    ```powershell  
-    PS C:\Users\moget> curl.exe -X POST `  
-    >> "https://api.zebra.com/v2/devices/printers/send" `  
-    >> -H "accept: text/plain" `  
-    >> -H "apikey: kSSO9AAtPzienatGAsUOwWmS31xysZG9" `  
-    >> -H "tenant: zebra" `  
-    >> -H "Content-Type: multipart/form-data" `  
-    >> -F "sn=D7J203700484" `  
-    >> -F "zpl_file=@C:\Users\moget\Downloads\temp\aaa.txt;type=text/plain"  
-    ```  
-  
+    
 - 返り値  
   
     ```powershell  
