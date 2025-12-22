@@ -81,7 +81,7 @@ https://developer.zebra.com/ > (右上)Register
   
 1. 自社向けのSendFileToPrinter用のData Services Appを作成する。  
     - 左上のメニュー > My Data Services > Apps > Create App+  
-[GETTING STARTED WITH ZEBRA DATA SERVICES：画面UIが少し古いので注意](https://developer.zebra.com/docs/getting-started)   
+[GETTING STARTED WITH ZEBRA DATA SERVICES：手順の画面UIが少し古いので注意](https://developer.zebra.com/docs/getting-started)   
     - App Name：任意  
     - Description：任意  
     - APIs：「Send File To Printer」 にチェックを入れる。  
@@ -159,14 +159,14 @@ https://developer.zebra.com/ > (右上)Register
   
 - 成功例 / Tenant ID: 87976eec89455eacad2955f46c46fc88 (zebra.share01@gmail.com)  
     ```powershell  
-    curl.exe -X "POST" `  
-    "https://api.zebra.com/v2/devices/printers/send" `  
-    -H "accept: text/plain" `  
-    -H "apikey: Cwvhpf7N21eq8cy4alsV1rOLClvtVx2x" `  
-    -H "tenant: 87976eec89455eacad2955f46c46fc88" `  
-    -H "Content-Type: multipart/form-data" `  
-    -F "sn=D7J203700352" `  
-    -F "zpl_file=@C:\Users\moget\Downloads\temp\aaa.txt;type=text/plain"  
+    curl.exe -X "POST" `
+    "https://api.zebra.com/v2/devices/printers/send" `
+    -H "accept: text/plain" `
+    -H "apikey: Cwvhpf7N21eq8cy4alsV1rOLClvtVx2x" `
+    -H "tenant: 87976eec89455eacad2955f46c46fc88" `
+    -H "Content-Type: multipart/form-data" `
+    -F "sn=D7J203700352" `
+    -F "zpl_file=@C:\Users\moget\Downloads\temp\aaa.txt;type=text/plain"
     ```  
   
 - 実行例  
