@@ -22,8 +22,8 @@ Cloudの普及により、インターネット経由でCloudから直接印刷�
 
 1. REST APIでプリンタに指示
 1. セキュアな接続（暗号化・SSL/TLS）
-1. クラウドから印刷指示
-1. Zebra Savana Cloud経由でデータ送信
+1. サーバ（クラウド・オンプレ）から印刷指示
+1. Zebra Savana Cloud経由のデータ送信
 
 </br></br>  
 # SendFileToPrinterが利用できるプリンタ
