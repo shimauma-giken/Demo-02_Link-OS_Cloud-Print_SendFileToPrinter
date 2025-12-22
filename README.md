@@ -1,13 +1,17 @@
-# Demo-02_Link-OS_Cloud-Print_SendFileToPrinter
-クラウド印刷（SendFileToPrinter APIの活用）
+### Demo-02_Link-OS_Cloud-Print_SendFileToPrinter
+# クラウド印刷（SendFileToPrinter APIの活用したデモ）
 
 
 Cloudの普及により、インターネット経由でCloudから直接印刷をしたいという要望が2025年度以降よりリクエストが増加。この場合、Zebra社のプリンタからは２つのアプローチ方法がある。
 
+</br>
+
 1. Cloud Connect(旧Weblink)
 2. SendFileToPrinter 
 
-本頁ではSendFileToPrinter(以降SFTP)のデモ環境構築の基礎について説明する。
+</br>
+
+本頁では**SendFileToPrinter**(以降SFTP)のデモ環境構築の基礎について説明する。
 
 <img src="./images/SendFileToPrinter-system-01.png">
 
