@@ -54,6 +54,8 @@ Cloudの普及により、インターネット経由でCloudから直接印刷�
 
 *1 SFTPは単方向通信。Syslogなどの仕組みと併用することでプリンタのフィードバック情報を取得可能。
 
+#### [参考：Link-OS プリンタSyslogクライアントの設定をする方法](https://github.com/shimauma-giken/Zebra-Printer_LInk-OS_Syslog-Setup)
+
 
 </br></br>  
 # 参考資料  
