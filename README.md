@@ -65,6 +65,7 @@ Cloudの普及により、インターネット経由でCloudから直接印刷�
 - [Data ServiceにAppsの追加方法：GETTING STARTED WITH ZEBRA DATA SERVICES](https://developer.zebra.com/docs/getting-started)    
 - [Deviceをテナントに追加する方法：Enrolled Devices](https://developer.zebra.com/my-devices)  
 - [Use the SendFileToPrinter API for Your Cloud-Based Printing Needs](https://developer.zebra.com/blog/use-sendfiletoprinter-api-your-cloud-based-printing-needs?tactic_type=WBP&tactic_detail=Desc_AV_GL_None_Youtube)
+- [Git-Hub:SendFileToPrinterのデモ・サンプルサイト（PDF印刷可能）](https://github.com/ZebraDevs/Zebra-Printer-Samples/tree/Print-From-Zebra-Data-Services-Cloud-Example?tab=readme-ov-file#printfromcloud)
   
 </br></br>  
 # SFTP (Send File To Printer) デモ環境構築手順  
@@ -232,4 +233,5 @@ https://developer.zebra.com/ > (右上)Register
 </script>  
 </body>  
 </html>  
-```  
+```
+
