@@ -143,24 +143,25 @@ https://developer.zebra.com/ > (右上)Register
     -F "zpl_file=@[フルパス+ファイル名];type=text/plain"  
     ```  
   
-- 成功例 / Tenant ID: zebra  
+- 成功例 / PDF  
   
     ```powershell  
   
     注）改行は`でつなげる  
     注）curl.exeを使うこと  
   
-    curl.exe -X POST `  
-    "https://api.zebra.com/v2/devices/printers/send" `  
-    -H "accept: text/plain" `  
-    -H "apikey: kSSO9AAtPzienatGAsUOwWmS31xysZG9" `  
-    -H "tenant: zebra" `  
-    -H "Content-Type: multipart/form-data" `  
-    -F "sn=D7J203700484" `  
-    -F "zpl_file=@C:\Users\moget\Downloads\temp\aaa.txt;type=text/plain"  
+  curl.exe -X POST `
+  "https://api.zebra.com/v2/devices/printers/send" `
+  -H "accept: text/plain" `
+  -H "apikey: SdHEA5zfVP2DApfg8q99vYQgBvpnXjs3" `
+  -H "tenant: 87976eec89455eacad2955f46c46fc88" `
+  -H "Content-Type: multipart/form-data" `
+  -F "sn=D7J203700482" `
+  -F "zpl_file=@C:\temp\sample.pdf;type=text/plain"
+ 
     ```  
   
-- 成功例 / Tenant ID: 87976eec89455eacad2955f46c46fc88 (zebra.share01@gmail.com)  
+- 成功例 / ZPL / Tenant ID: 87976eec89455eacad2955f46c46fc88  
     ```powershell  
     curl.exe -X "POST" `
     "https://api.zebra.com/v2/devices/printers/send" `
